@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package issues;
+
+option java_package = "com.justinsb.issuesync.model.proto";
+option java_outer_classname = "IssuesProtos";
+
+message Comment {
+  string body = 1;
+}
