@@ -28,3 +28,18 @@ maven_jar(
     artifact = "commons-logging:commons-logging:1.2",
 )
 
+maven_jar(
+    name = "ch_qos_logback_logback_classic",
+    artifact = "ch.qos.logback:logback-classic:1.1.7",
+)
+
+maven_jar(
+    name = "ch_qos_logback_logback_core",
+    artifact = "ch.qos.logback:logback-core:1.1.7",
+)
+
+maven_jar(
+    name = "org_slf4j_slf4j_api",
+    artifact = "org.slf4j:slf4j-api:1.7.20",
+)
+
