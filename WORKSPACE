@@ -1,7 +1,7 @@
 git_repository(
   name = "org_pubref_rules_protobuf",
   remote = "https://github.com/pubref/rules_protobuf",
-  commit = "404977c0290704aacca00fac8ca0ecaeda09a7cf",
+  tag = "v0.7.1"
 )
 
 load("@org_pubref_rules_protobuf//java:rules.bzl", "java_proto_repositories")
